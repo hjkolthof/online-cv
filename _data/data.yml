@@ -8,23 +8,23 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Harm-Jan Kolthof
+    tagline: Intune | AutoPilot | MAM | MDM | Defender for Endpoint | Azure DevOps | CI/CD
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: hjkolthof@gmail.com
+    phone: +31 6 42 71 96 41
+    timezone: Europe/Amsterdam Timezone
+    citizenship: Dutch
+    website: https://cv.hjkolthof.nl #do not add http://
+    linkedin: hjkolthof
+    xing: 
+    github: hjkolthof
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,52 +33,33 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Dutch
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Movies/TV
+          link: https://trakt.tv/users/harmjan-kolthof
+
+        - item: 
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
+        - item: 
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Experienced consultant with a demonstrated history of working in the information technology and services industry. Specialized in Microsoft Modern Workplace designing/building/supporting in Azure and Intune. Strong program and project management professional. Currently on track for a Bachelor of Science (Business & IT-Management)
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
+      - degree: BSc in Business IT & Management 
+        university: NCOI Opleidingen
         time: 2007 - 2011
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
