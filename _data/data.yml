@@ -45,12 +45,6 @@ sidebar:
         - item: Movies/TV
           link: https://trakt.tv/users/harmjan-kolthof
 
-        - item: 
-          link:
-
-        - item: 
-          link:
-
 career-profile:
     title: Career Profile
     summary: |
@@ -79,50 +73,27 @@ education:
         university: Hogeschool van Amsterdam
         time: 2010 - 2011
         details: 
-
+        
+      - degree: Propedeuse Sportmarketing & Management
+        university: Hogeschool van Amsterdam
+        time: 2009 - 2010
+        details: 
+        
+      - degree: Propedeuse Information Engineering
+        university: Hogeschool van Amsterdam
+        time: 2009 - 2010
+        details: 
 
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Consultant
+        time: 2023 - Present
+        company: RawWorks | Sneller en Slimmer werken
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+        RAW biedt IT kennis en diensten. Wij zetten IT in om business waarde te creëren. Met kleine teams richten wij ons op specifieke branches. Wij begrijpen deze branches en hebben praktijkervaring op de werkvloer. Deze kennis zetten wij in om de laatste innovaties naar onze klanten te  brengen. Onze klanten werken hierdoor effectiever, besparen kosten én hebben zelf ook een  tevreden klant.
+        
 certifications:
       title: Certifications
       list:
