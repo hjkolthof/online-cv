@@ -1,22 +1,14 @@
-/* RawWorks dark skin — matches cv.hjkolthof.nl */
-$theme-color: #4f8cff;
-$accent-2: #22d3ee;
-$accent-3: #a78bfa;
+/* RawWorks skin — light & minimalist, RawWorks house style
+   (deep indigo sidebar, vivid purple accent, lavender-white base) */
+$theme-color: #2C225C;        // RawWorks deep indigo (sidebar + titles)
+$accent: #5f2dee;             // RawWorks vivid purple (links/accents)
 
-$text-color: #e8ecf7;
-$text-color-secondary: #c7cfe6;
-$text-grey: #9aa6c7;
+$text-color: #1D1729;         // headings
+$text-color-secondary: #32373c;
+$text-grey: #6C6A72;
 
-$divider: #243156;
-$lighter-grey: #243156;
-$darker-grey: #9aa6c7;
-$smoky-white: #0b1020;
+$divider: #E4E0EE;
+$lighter-grey: #E4E0EE;
+$darker-grey: #6C6A72;
+$smoky-white: #F4F2F9;        // page background / bar tracks
 $heart: #fb866a;
-
-/* extra palette tokens */
-$bg: #0b1020;
-$bg-soft: #10172e;
-$panel: #141d38;
-$panel-2: #18234a;
-$line: #243156;
-$muted: #9aa6c7;

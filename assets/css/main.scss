@@ -19,145 +19,134 @@ $sidebar-order: 2;
 
 {% if site.theme_skin == 'rawworks' %}
 /* ======================================================================
-   RawWorks dark overrides — mirror cv.hjkolthof.nl on the data-driven theme
+   RawWorks skin — light & minimalist, RawWorks house style
+   deep-indigo sidebar · vivid-purple accent · lavender-white base
    ====================================================================== */
 
 body {
   font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
-  color: $text-color;
-  background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(79,140,255,.18), transparent 60%),
-    radial-gradient(900px 500px at -10% 20%, rgba(167,139,250,.14), transparent 55%),
-    $bg;
-  background-attachment: fixed;
+  color: $text-color-secondary;
+  background: $smoky-white;
 }
 
 .wrapper {
-  background: $panel;
-  border: 1px solid $line;
-  border-radius: 20px;
+  background: #fff;
+  border: 1px solid $divider;
+  border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 28px 70px -30px rgba(0,0,0,.8);
+  box-shadow: 0 24px 60px -32px rgba(44, 34, 92, .35);
 }
 
-/* ---- Sidebar ---- */
+/* ---- Sidebar (deep indigo) ---- */
 .sidebar-wrapper {
-  background: linear-gradient(180deg, $panel-2, $panel);
-  border-right: 1px solid $line;
-  color: $text-color;
+  background: $theme-color;
+  color: #fff;
 
-  a { color: $text-color; }
-  a:hover { color: #fff; text-decoration: none; }
+  a { color: #fff; }
+  a:hover { color: #fff; text-decoration: underline; }
 
-  .profile-container { background: rgba(0,0,0,.28); }
+  .profile-container { background: rgba(0, 0, 0, .14); }
 
   .avatar {
     max-width: 122px;
     width: 122px;
     height: 122px;
     object-fit: cover;
-    border-radius: 22px;
-    border: 1px solid $line;
-    box-shadow: 0 12px 32px -12px rgba(0,0,0,.7);
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, .14);
+    box-shadow: 0 10px 28px -12px rgba(0, 0, 0, .5);
   }
 
-  .name {
-    background: linear-gradient(120deg, $theme-color, $accent-3, $accent-2);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    letter-spacing: -.5px;
-  }
-  .tagline { color: $muted; }
+  .name { color: #fff; letter-spacing: -.3px; }
+  .tagline { color: rgba(255, 255, 255, .65); }
 
-  .container-block-title { color: $accent-2; letter-spacing: 1px; }
+  .container-block-title {
+    color: #fff;
+    letter-spacing: 1.5px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, .16);
+  }
 
   .contact-list .fas,
   .contact-list .fab,
-  .contact-list .far { color: $accent-2; }
-
-  .education-container .meta,
-  .education-container .time,
-  .languages-container .lang-desc { color: $muted; }
-  .degree { color: $text-color; }
+  .contact-list .far { color: rgba(255, 255, 255, .85); }
 }
 
-/* ---- Main column ---- */
+/* ---- Main column (white, minimalist) ---- */
 .main-wrapper {
-  background: $bg-soft;
+  background: #fff;
   color: $text-color-secondary;
+  padding: 56px;
 
   .section-title {
-    color: #fff;
-    letter-spacing: .3px;
-    .fa-stack-2x { color: $theme-color; }
+    color: $theme-color;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    .fa-stack-2x { color: $accent; }
   }
 
-  a { color: $accent-2; }
-  a:hover { color: #fff; text-decoration: none; }
+  a { color: $accent; }
+  a:hover { color: darken($accent, 12%); text-decoration: underline; }
 
-  /* cards for each entry */
+  /* minimalist: subtle separators instead of heavy cards */
   .experiences-section .item,
   .educations-section .item,
-  .certifications-section .item,
+  .certifications-section .item {
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid $divider;
+    &:last-child { border-bottom: none; margin-bottom: 0; }
+  }
+
   .summary {
-    background: $panel;
-    border: 1px solid $line;
-    border-left: 3px solid $theme-color;
-    border-radius: 14px;
-    padding: 20px 22px;
+    background: $smoky-white;
+    border-left: 3px solid $accent;
+    border-radius: 10px;
+    padding: 18px 22px;
   }
-  .experiences-section .item,
-  .educations-section .item,
-  .certifications-section .item { margin-bottom: 18px; }
 
   .job-title,
   .cert-title,
-  .degree { color: #fff; }
+  .degree { color: $text-color; font-weight: 600; }
 
   .company,
   .university,
-  .cert-org { color: $accent-2; font-weight: 600; }
+  .cert-org { color: $accent; font-weight: 600; }
 
   .time,
-  .cert-url {
-    color: $muted;
-    font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
-    font-size: 12px;
-  }
+  .cert-url { color: $text-grey; font-size: 13px; }
 
   .details { color: $text-color-secondary; }
   .details ul { padding-left: 18px; }
-  .details li { margin: 3px 0; color: $muted; }
+  .details li { margin: 3px 0; }
   .summary p:last-child { margin-bottom: 0; }
 }
 
 /* ---- Skills ---- */
 .skillset {
-  .level-title { color: $text-color-secondary; }
+  .level-title { color: $text-color; }
   .level-bar {
-    background: $panel-2;
-    border: 1px solid $line;
+    background: $divider;
     border-radius: 999px;
-    height: 10px;
+    height: 9px;
   }
   .level-bar-inner {
-    background: linear-gradient(90deg, $theme-color, $accent-2);
+    background: linear-gradient(90deg, $accent, $theme-color);
     border-radius: 999px;
-    height: 10px;
+    height: 9px;
   }
 }
 
 /* ---- Footer ---- */
 .footer {
   text-align: center;
-  .copyright { color: $muted; }
+  .copyright { color: $text-grey; }
 }
 
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
   body { padding: 14px; }
-  .wrapper { border-radius: 16px; }
-  .sidebar-wrapper { border-right: none; border-bottom: 1px solid $line; }
+  .wrapper { border-radius: 14px; }
+  .main-wrapper { padding: 32px 24px; }
 }
 {% endif %}
