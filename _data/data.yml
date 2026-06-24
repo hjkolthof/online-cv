@@ -16,7 +16,7 @@ sidebar:
     email: hjkolthof@gmail.com
     phone: +31 6 42 71 96 41
     timezone: Europe/Amsterdam
-    citizenship: Dutch
+    citizenship: Nederlandse
     website: https://cv.hjkolthof.nl #do not add http://
     linkedin: hjkolthof
     xing:
@@ -30,43 +30,43 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      title: Languages
+      title: Talen
       info:
-        - idiom: Dutch
-          level: Native
+        - idiom: Nederlands
+          level: Moedertaal
 
-        - idiom: English
-          level: Professional
+        - idiom: Engels
+          level: Professioneel
 
     interests:
-      title: Interests
+      title: Interesses
       info:
-        - item: Movies/TV
+        - item: Films/TV
           link: https://trakt.tv/users/harmjan-kolthof
 
 career-profile:
-    title: Career Profile
+    title: Profiel
     summary: |
-      Senior Workspace & Cloud Consultant with 15+ years of IT experience, specialized
-      in the Microsoft 365 and Azure ecosystem: Microsoft Intune and Windows modern
-      management, Microsoft Entra ID (identity & access), Conditional Access & endpoint
-      security, and Azure Virtual Desktop. I design, build and manage modern, cloud-first
-      workplaces for complex enterprise organisations — from device and identity
-      management to automation and security — translating strategy into solutions that
-      keep working after delivery. Backed by PRINCE2 Practitioner, ITIL and Scrum, I move
-      easily between project and operations teams and act as the connecting link between
-      technology, architecture and operations.
+      Senior Workspace & Cloud Consultant met ruim 15 jaar IT-ervaring, gespecialiseerd
+      in het Microsoft 365- en Azure-ecosysteem: Microsoft Intune en Windows modern
+      management, Microsoft Entra ID (identity & access), Conditional Access & endpoint-
+      security en Azure Virtual Desktop. Ik ontwerp, bouw en beheer moderne, cloud-first
+      werkplekken voor complexe enterprise-organisaties — van device- en identity-management
+      tot automatisering en security — en vertaal strategie naar oplossingen die ook na
+      oplevering blijven werken. Met PRINCE2 Practitioner, ITIL en Scrum beweeg ik
+      moeiteloos tussen project- en beheerorganisaties en ben ik de verbindende schakel
+      tussen techniek, architectuur en operatie.
 
 education:
-    title: Education
+    title: Opleidingen
     info:
-      - degree: Business IT & Management (HBO, not completed)
+      - degree: Business IT & Management (HBO, niet afgerond)
         university: NCOI Opleidingen
         time: 2017 - 2019
         details: |
-          Coursework included project management, enterprise architecture, systeem-
-          ontwikkeling, process management, business information management, IT strategy
-          and advisory & communication skills.
+          Onder meer projectmanagement, enterprise-architectuur, systeemontwikkeling,
+          procesmanagement, bedrijfskundig informatiemanagement, IT-strategie en
+          advies- & communicatievaardigheden.
       - degree: Propedeuse Technische Informatica
         university: Hogeschool van Amsterdam
         time: 2010 - 2011
@@ -83,7 +83,7 @@ education:
         details:
 
 experiences:
-    title: Experiences
+    title: Werkervaring
     info:
       - role: Werkplek Consultant
         time: apr 2026 - Present
@@ -194,7 +194,7 @@ experiences:
           7 stadsonderdelen (5.000+ werkplekken).
 
 certifications:
-      title: Certifications
+      title: Certificaten
       list:
         - name: Microsoft 365 Certified - Enterprise Administrator Expert
           organization: Microsoft
@@ -224,10 +224,10 @@ certifications:
           organization: AXELOS
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Vaardigheden
 
     toolset:
-      - name: Microsoft Intune & Endpoint Management
+      - name: Microsoft Intune & endpoint management
         level: 98%
 
       - name: Microsoft Entra ID / Azure AD & Conditional Access
@@ -239,10 +239,10 @@ skills:
       - name: Azure Virtual Desktop & Windows 365
         level: 90%
 
-      - name: PowerShell & Automation
+      - name: PowerShell & automatisering
         level: 90%
 
-      - name: Microsoft Defender & Endpoint Security
+      - name: Microsoft Defender & endpoint-security
         level: 88%
 
       - name: Azure DevOps CI/CD & Git
