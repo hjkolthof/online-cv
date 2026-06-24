@@ -4,31 +4,30 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Harm-Jan Kolthof
-    tagline: Intune | AutoPilot | MAM | MDM | Defender for Endpoint | Azure DevOps | CI/CD
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Senior Workspace & Cloud Consultant · Microsoft 365 · Intune · Azure
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: hjkolthof@gmail.com
     phone: +31 6 42 71 96 41
-    timezone: Europe/Amsterdam Timezone
+    timezone: Europe/Amsterdam
     citizenship: Dutch
     website: https://cv.hjkolthof.nl #do not add http://
     linkedin: hjkolthof
-    xing: 
+    xing:
     github: hjkolthof
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: 
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
@@ -48,182 +47,209 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced consultant with a demonstrated history of working in the information technology and services industry. Specialized in Microsoft Modern Workplace designing/building/supporting in Azure and Intune. Strong program and project management professional. Currently on track for a Bachelor of Science (Business & IT-Management)
+      Senior Workspace & Cloud Consultant with 15+ years of IT experience, specialized
+      in the Microsoft 365 and Azure ecosystem: Microsoft Intune and Windows modern
+      management, Microsoft Entra ID (identity & access), Conditional Access & endpoint
+      security, and Azure Virtual Desktop. I design, build and manage modern, cloud-first
+      workplaces for complex enterprise organisations — from device and identity
+      management to automation and security — translating strategy into solutions that
+      keep working after delivery. Backed by PRINCE2 Practitioner, ITIL and Scrum, I move
+      easily between project and operations teams and act as the connecting link between
+      technology, architecture and operations.
+
 education:
     title: Education
     info:
-      - degree: BSc in Business IT & Management 
+      - degree: Business IT & Management (HBO, not completed)
         university: NCOI Opleidingen
         time: 2017 - 2019
         details: |
-          - Projectmanagement
-          - Enterprise Architectuur
-          - Netwerktechniek en -beheer
-          - Systeemontwikkeling
-          - Procesmanagement
-          - Bedrijfskundig informatiemanagement
-          - Organisatie en verandering
-          - Bedrijfskundig management voor IT
-          - IT-strategie
-          - Management van bedrijfsprocessen
-          - Adviesvaardigheden
-          - Projectmanagementvaardigheden
-          - Effectief communiceren en beïnvloeden
+          Coursework included project management, enterprise architecture, systeem-
+          ontwikkeling, process management, business information management, IT strategy
+          and advisory & communication skills.
       - degree: Propedeuse Technische Informatica
         university: Hogeschool van Amsterdam
         time: 2010 - 2011
-        details: 
-        
+        details:
+
       - degree: Propedeuse Sportmarketing & Management
         university: Hogeschool van Amsterdam
         time: 2009 - 2010
-        details: 
-        
+        details:
+
       - degree: Propedeuse Information Engineering
         university: Hogeschool van Amsterdam
         time: 2009 - 2010
-        details: 
-
+        details:
 
 experiences:
     title: Experiences
     info:
-      - role: Consultant
-        time: 2023 - Present
-        company: RawWorks | Sneller en Slimmer werken
+      - role: Werkplek Consultant
+        time: apr 2026 - Present
+        company: "'s Heeren Loo"
         details: |
-        RAW biedt IT kennis en diensten. Wij zetten IT in om business waarde te creëren. Met kleine teams richten wij ons op specifieke branches. Wij begrijpen deze branches en hebben praktijkervaring op de werkvloer. Deze kennis zetten wij in om de laatste innovaties naar onze klanten te  brengen. Onze klanten werken hierdoor effectiever, besparen kosten én hebben zelf ook een  tevreden klant.
-        
+          Doorontwikkeling van de digitale werkplek en tactisch bepalen van de roadmap
+          voor team Werkplek & Applicaties.
+          - Ontwerp en implementatie van een BYOD-werkplek op basis van Conditional Access
+          - Inrichten van Microsoft Defender for Cloud Apps (MDCA) voor sessie- en gegevensbeheersing
+          - Opschoning en optimalisatie van de Azure Virtual Desktop-omgeving (kosten & performance)
+          - Beveiligen van toegang tot bedrijfsgegevens vanaf onbeheerde apparaten
+
+      - role: Technical Consultant
+        time: apr 2026 - Present
+        company: Ecotone Wessanen
+        details: |
+          Vervolgopdracht: doorontwikkeling van de Intune-werkplek en oppakken van restpunten.
+          - Migratie van 802.1x van on-premises NPS naar een cloudoplossing (RADIUS-as-a-Service / SCEPman)
+          - Applicatieverbeteringen en optimalisatie van de werkplek-baseline in Microsoft Intune
+          - Begeleiden van de Intune-pilot (migratie vanuit SCCM)
+
+      - role: Technical Consultant
+        time: sep 2024 - mrt 2026
+        company: De Brauw Blackstone Westbroek
+        details: |
+          Verantwoordelijk voor beheer en doorontwikkeling van 1.000+ Windows-werkplekken
+          (Surface) en 1.000 iPhones via Intune binnen een veeleisende juridische omgeving.
+          - Uitrol van Azure Virtual Desktop voor personal- en multi-sessiegebruikers
+          - Implementatie van een logsensor voor SIEM/SOC-oplossingen
+          - Transitie van Azure ExpressRoute naar SD-WAN (Cisco Meraki, met Axians)
+          - Piloting van Intune Cloud PKI voor Always-on-VPN en Windows 11-migratiepilot
+
+      - role: Technical Project Consultant
+        time: mei 2025
+        company: Ecotone Wessanen
+        details: |
+          Ontwerp en oplevering van een volledig nieuwe Intune-werkplek volgens actuele
+          Microsoft-standaarden en best practices.
+          - Opgesteld functioneel en technisch ontwerp voor de nieuwe werkplek
+          - Ontworpen device-, security- en configuratiestructuur voor moderne Windows-endpoints
+          - Ontwerpkeuzes afgestemd met stakeholders en de implementatie begeleid tot oplevering
+
+      - role: Technical Project Consultant
+        time: jan 2025 - mrt 2025
+        company: TAUW
+        details: |
+          Ondersteuning bij de migratie naar een moderne digitale werkplek binnen een
+          lopend transformatietraject.
+          - Bijgedragen aan afronding en uitrol van het moderne werkplekontwerp
+          - Uitvoerende Intune-werkzaamheden: device- en configuratiebeheer
+          - Uitfasering van regionale kantooromgevingen en oplossen van operationele issues
+
+      - role: Technical Project Consultant
+        time: dec 2024 - jan 2025
+        company: Scholengroep Leonardo da Vinci
+        details: |
+          Inventarisatie en ontwerp van een kiosk- en gedeelde werkplekoplossing binnen
+          een onderwijsomgeving.
+          - Functionele en technische eisen en gebruikersscenario's in kaart gebracht
+          - Kiosk-concept ontworpen op basis van Intune en Windows modern management
+          - Geadviseerd over beheerbaarheid, beveiliging en gebruikerservaring
+
+      - role: Modern Workspace Consultant
+        time: aug 2023 - jun 2024
+        company: Nederlandse Spoorwegen
+        details: |
+          Grootschalige MDM-migratie van ±16.000 Android-devices van VMware Airwatch naar
+          Microsoft Intune.
+          - Ontworpen Intune-omgeving met Samsung Knox (Enrollment / Intelligence / E-FOTA)
+          - Ontwikkeld werkplek met Samsung DeX, shared tablets en specialistische Android-devices
+          - Floorwalkers getraind en migratie aangestuurd op piekdagen van 300–400 devices
+
+      - role: Lead Engineer – Modern Workplace
+        time: jan 2019 - feb 2023
+        company: PWN | Puur Water & Natuur
+        details: |
+          Lead engineer voor de ontwikkeling en implementatie van de digitale werkplek
+          (2.000 accounts, 850 Windows-, 350 iOS- en 400 Android-devices).
+          - Development Azure Virtual Desktop en Windows 365 CloudPC
+          - MDM Windows 10 en iOS/Android (zero-touch enrollment, compliance & configuration)
+          - Applicatie-packaging (Win32App) via PowerShell en Azure DevOps CI/CD-pipelines
+          - Conditional Access & Microsoft Endpoint Security
+
+      - role: Senior Workspace Consultant
+        time: 2018 - 2023
+        company: Dignitas
+        details: |
+          Diverse ontwerptrajecten voor nieuwe werkplekken op basis van Intune, Azure AD,
+          Windows 10, Liquit Workspace en RDS.
+          - Lead consultant voor opbouw van een Citrix (Cloud)-gebaseerde mobiele werkplek
+          - Opbouw two-tier Microsoft PKI en ADFS-omgeving
+          - Volledige netwerk- en backendvernieuwing (VMware vSphere, Windows Server 2016)
+
+      - role: Projectmanager
+        time: aug 2018 - dec 2018
+        company: Tweede Kamer der Staten-Generaal
+        details: |
+          Succesvolle implementatie van Xerox XMPie (Web-To-Print). PRINCE2-projectmanagement
+          met 25+ stakeholders in een politiek gevoelige omgeving — afgerond binnen scope,
+          budget en planning.
+
+      - role: Teamlead Werkplekmigratie
+        time: mei 2014 - nov 2016
+        company: Gemeente Amsterdam
+        details: |
+          Teamlead frontend package team (±6 fte) voor de migratie naar de Amsterdamse
+          Digitale Werkplek (ADW). Migratie van applicaties en werkplekken over
+          7 stadsonderdelen (5.000+ werkplekken).
+
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
+        - name: Microsoft 365 Certified - Enterprise Administrator Expert
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
+        - name: Microsoft Certified - Azure Solutions Architect Expert
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        - name: Microsoft Certified - DevOps Engineer Expert
+          organization: Microsoft
+        - name: Microsoft Certified - Azure Virtual Desktop Specialty (AZ-140)
+          organization: Microsoft
+        - name: Microsoft Certified - Azure Administrator Associate (AZ-104)
+          organization: Microsoft
+        - name: AZ-305 - Designing Microsoft Azure Infrastructure Solutions
+          organization: Microsoft
+        - name: AZ-400 - Designing and Implementing Microsoft DevOps Solutions
+          organization: Microsoft
+        - name: SC-400 - Information Protection & Compliance Administrator Associate
+          organization: Microsoft
+        - name: Microsoft 365 Certified - Modern Desktop Administrator Associate (MD-100/MD-101)
+          organization: Microsoft
+        - name: MS-100 / MS-101 / MS-102 - Microsoft 365 Administration
+          organization: Microsoft
+        - name: PRINCE2 Practitioner & Foundation
+          organization: AXELOS / PeopleCert
+        - name: Scrum Master Certified (SMC)
+          organization: SCRUMstudy
+        - name: ITIL Foundation v3
+          organization: AXELOS
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Microsoft Intune & Endpoint Management
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Microsoft Entra ID / Azure AD & Conditional Access
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Azure (IaaS / PaaS)
+        level: 90%
+
+      - name: Azure Virtual Desktop & Windows 365
+        level: 90%
+
+      - name: PowerShell & Automation
+        level: 90%
+
+      - name: Microsoft Defender & Endpoint Security
+        level: 88%
+
+      - name: Azure DevOps CI/CD & Git
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Bicep / Infrastructure as Code
+        level: 80%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
