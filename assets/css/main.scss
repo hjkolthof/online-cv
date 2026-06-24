@@ -16,3 +16,148 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+{% if site.theme_skin == 'rawworks' %}
+/* ======================================================================
+   RawWorks dark overrides — mirror cv.hjkolthof.nl on the data-driven theme
+   ====================================================================== */
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  color: $text-color;
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(79,140,255,.18), transparent 60%),
+    radial-gradient(900px 500px at -10% 20%, rgba(167,139,250,.14), transparent 55%),
+    $bg;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  background: $panel;
+  border: 1px solid $line;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 28px 70px -30px rgba(0,0,0,.8);
+}
+
+/* ---- Sidebar ---- */
+.sidebar-wrapper {
+  background: linear-gradient(180deg, $panel-2, $panel);
+  border-right: 1px solid $line;
+  color: $text-color;
+
+  a { color: $text-color; }
+  a:hover { color: #fff; text-decoration: none; }
+
+  .profile-container { background: rgba(0,0,0,.28); }
+
+  .avatar {
+    max-width: 122px;
+    width: 122px;
+    height: 122px;
+    object-fit: cover;
+    border-radius: 22px;
+    border: 1px solid $line;
+    box-shadow: 0 12px 32px -12px rgba(0,0,0,.7);
+  }
+
+  .name {
+    background: linear-gradient(120deg, $theme-color, $accent-3, $accent-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -.5px;
+  }
+  .tagline { color: $muted; }
+
+  .container-block-title { color: $accent-2; letter-spacing: 1px; }
+
+  .contact-list .fas,
+  .contact-list .fab,
+  .contact-list .far { color: $accent-2; }
+
+  .education-container .meta,
+  .education-container .time,
+  .languages-container .lang-desc { color: $muted; }
+  .degree { color: $text-color; }
+}
+
+/* ---- Main column ---- */
+.main-wrapper {
+  background: $bg-soft;
+  color: $text-color-secondary;
+
+  .section-title {
+    color: #fff;
+    letter-spacing: .3px;
+    .fa-stack-2x { color: $theme-color; }
+  }
+
+  a { color: $accent-2; }
+  a:hover { color: #fff; text-decoration: none; }
+
+  /* cards for each entry */
+  .experiences-section .item,
+  .educations-section .item,
+  .certifications-section .item,
+  .summary {
+    background: $panel;
+    border: 1px solid $line;
+    border-left: 3px solid $theme-color;
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .experiences-section .item,
+  .educations-section .item,
+  .certifications-section .item { margin-bottom: 18px; }
+
+  .job-title,
+  .cert-title,
+  .degree { color: #fff; }
+
+  .company,
+  .university,
+  .cert-org { color: $accent-2; font-weight: 600; }
+
+  .time,
+  .cert-url {
+    color: $muted;
+    font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+    font-size: 12px;
+  }
+
+  .details { color: $text-color-secondary; }
+  .details ul { padding-left: 18px; }
+  .details li { margin: 3px 0; color: $muted; }
+  .summary p:last-child { margin-bottom: 0; }
+}
+
+/* ---- Skills ---- */
+.skillset {
+  .level-title { color: $text-color-secondary; }
+  .level-bar {
+    background: $panel-2;
+    border: 1px solid $line;
+    border-radius: 999px;
+    height: 10px;
+  }
+  .level-bar-inner {
+    background: linear-gradient(90deg, $theme-color, $accent-2);
+    border-radius: 999px;
+    height: 10px;
+  }
+}
+
+/* ---- Footer ---- */
+.footer {
+  text-align: center;
+  .copyright { color: $muted; }
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 768px) {
+  body { padding: 14px; }
+  .wrapper { border-radius: 16px; }
+  .sidebar-wrapper { border-right: none; border-bottom: 1px solid $line; }
+}
+{% endif %}
