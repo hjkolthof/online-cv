@@ -203,24 +203,44 @@ certifications:
       list:
         - name: Microsoft 365 Certified - Enterprise Administrator Expert
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: Microsoft Certified - Azure Solutions Architect Expert
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: Microsoft Certified - DevOps Engineer Expert
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: Microsoft Certified - Azure Virtual Desktop Specialty (AZ-140)
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: Microsoft Certified - Azure Administrator Associate (AZ-104)
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: AZ-305 - Designing Microsoft Azure Infrastructure Solutions
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: AZ-400 - Designing and Implementing Microsoft DevOps Solutions
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: SC-400 - Information Protection & Compliance Administrator Associate
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: Microsoft 365 Certified - Modern Desktop Administrator Associate (MD-100/MD-101)
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: MS-100 / MS-101 / MS-102 - Microsoft 365 Administration
           organization: Microsoft
+          credentialurl: learn.microsoft.com/users/harmjankolthof-7512/credentials/
+          credentialname: Verifieer op Microsoft Learn ↗
         - name: PRINCE2 Practitioner & Foundation
           organization: AXELOS / PeopleCert
         - name: Scrum Master Certified (SMC)
